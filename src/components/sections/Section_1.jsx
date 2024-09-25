@@ -4,7 +4,7 @@ import aiContent from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/des
 const Section_1 = () => {
     return (
         <>
-            <section className=" md:flex lg:flex lg:flex-col mb-4 text-center md:text-left md:mb-0 mx-4 md:mr-4 lg:mr-0 md:ml-4 gap-4 order-2 md:order-2 lg::order-1">
+            <section className=" md:flex lg:flex lg:flex-col mb-4 text-center md:text-left md:mb-0 mx-4 md:mr-4 lg:mr-0 md:ml-4 gap-4 order-2 md:order-2 lg::order-1 ">
                 <section className="bg-yellow-bento-100 rounded-lg basis-1/2 order-2 mb-4 md:mb-0 md:order-1 shadow-xl md:cursor-pointer md:hover:scale-105 ">
                     <h1 className="mx-2 my-4 font-semibold text-3xl mb-10">
                         Create and schedule content <em className="text-purple-500">quicker.</em>

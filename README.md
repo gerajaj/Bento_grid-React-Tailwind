@@ -2,4 +2,4 @@
 
 -[Challenge](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
 
--[Preview](https://github.com/gerajaj/Bento_grid-React-Tailwind)
+-[Preview](https://bento-grid-react-tailwindcss.netlify.app/)
