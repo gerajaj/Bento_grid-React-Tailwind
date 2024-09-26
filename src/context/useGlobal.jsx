@@ -19,6 +19,7 @@ export default (props) => {
             document.querySelector("html").classList.remove("dark")
 
         }
+
     }, [theme])
 
     const handleChangeTheme = () => {
