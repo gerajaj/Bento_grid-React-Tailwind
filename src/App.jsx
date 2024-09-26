@@ -13,7 +13,7 @@ import Section_1 from "./components/sections/Section_1.jsx";
 import Section_2 from "./components/sections/Section_2.jsx";
 
 import { motion } from 'framer-motion';
-import UseGlobalProvider from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/context/useGlobal";
+import UseGlobalProvider from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/context/useGlobal";
 
 
 const APP = () => {

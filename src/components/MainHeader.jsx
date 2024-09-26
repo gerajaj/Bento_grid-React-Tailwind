@@ -1,11 +1,12 @@
-import { useGlobal } from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/context/useGlobal";
+
+import MoonIcon from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/components/icons/icons8-moon-50.png";
+import SunIcon from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/components/icons/icons8-sun-50.png";
+
+import { useGlobal } from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/context/useGlobal";
 
 import { useContext } from "react";
 
-/* 
-{theme === "light" ? "dark" : "light"} 
-onClick={handleChangeTheme}
-*/
+
 
 const MainHeader = () => {
     const { handleChangeTheme } = useContext(useGlobal);
@@ -13,7 +14,7 @@ const MainHeader = () => {
     return (
         <>
             <header className="dark:bg-slate-950 dark:text-white flex h-full md:max-w-[885px] lg:max-w-[980px] mx-auto">
-                <a href="https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj" /* className="flex mx-auto justify-center font-bold bg-purple-bento-100 text-black duration-1000 hover:ease-in-out hover:bg-gradient-to-b hover:bg-yellow-bento-500 hover:duration-1000 hover:text-purple-bento-500 min-w-[100%] py-2" */
+                <a href="https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj"
                     className="mt-4 font-bold hover:scale-110 ml-4"
                     target="_blank"
                     title="Front-end Mentor's Challenge"
@@ -25,10 +26,10 @@ const MainHeader = () => {
                     className="ml-0 hover:font-bold hover:scale-105 mt-4" target="_blank"
 
                 >About</a>
-                <button className={` ml-4 mt-4 hover:font-bold mr-4 rounded-full w-7 ${theme === "light" ? "bg-purple-bento-500 text-purple-bento-100 md:hover:text-yellow-bento-500  hover:text-purple-bento-100" : "bg-purple-bento-100 text-purple-bento-500 md:hover:-scale-105  hover:bg-yellow-bento-500"}`} title="Click to change mode">
-                    <p className="font-bold text-lg dark:font-bold" onClick={handleChangeTheme}>
-                        O
-                    </p>
+                <button className={` ml-4 mt-4  mr-4 rounded-full w-6 ${theme === "light" ? "hover:bg-gray-300" : ""}`} title="Click to change mode" onClick={handleChangeTheme}>
+
+                    {theme === "dark" ? (<img src={SunIcon} className="h-6 mx-auto fill-bold rounded-full hover:border hover:border-blue-300" />) : (<img src={MoonIcon} className="h-5 mx-auto fill-bold" />)}
+
 
                 </button>
             </header>

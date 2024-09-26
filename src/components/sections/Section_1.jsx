@@ -1,5 +1,5 @@
-import postImg from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-create-post.webp";
-import aiContent from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-ai-content.webp";
+import postImg from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-create-post.webp";
+import aiContent from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-ai-content.webp";
 
 const Section_1 = () => {
     return (

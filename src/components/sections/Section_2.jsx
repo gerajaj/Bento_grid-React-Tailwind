@@ -1,9 +1,9 @@
-import fiveStars from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-five-stars.webp";
-import multPlatform from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-multiple-platforms.webp";
-import schedule from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-consistent-schedule.webp";
-import schedulePosts from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-schedule-posts.webp";
-import audienceGrowth from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-audience-growth.webp";
-import growFollowers from "C:/Users/javi/Desktop/Proyectos/Bento_grid/src/assets/design/images/illustration-grow-followers.webp";
+import fiveStars from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-five-stars.webp";
+import multPlatform from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-multiple-platforms.webp";
+import schedule from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-consistent-schedule.webp";
+import schedulePosts from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-schedule-posts.webp";
+import audienceGrowth from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-audience-growth.webp";
+import growFollowers from "C:/Users/javi/Desktop/Proyectos/2_Bento_grid/src/assets/design/images/illustration-grow-followers.webp";
 
 const Section_2 = () => {
     return (
